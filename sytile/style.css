@@ -1,0 +1,305 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url("../multimedia/fondo.jpg");
+    background-attachment: fixed;
+
+
+}
+
+ul {
+
+    padding: 10px;
+    list-style: none;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+.lista-sin-puntos {
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    min-width: 320px; /*revisar que chuchas hice aca*/
+
+}
+
+.contenedor-header {
+    
+
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: black;
+}
+
+.img-section-1 {
+    margin: 50px;
+    border-radius: 5px;
+    width: 30rem;
+
+}
+
+
+/*
+.contenedor-h1 {
+    flex-direction: column;
+    text-align: center;
+    padding: 130px;
+
+}*/
+
+
+.box {
+    display: flex;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #DB0F35;
+    justify-content: space-around;
+    
+}
+
+.div-section1 {
+
+    background-color: #FFF2EB;
+    display: flex;
+
+}
+
+.contenedor-caja {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja {
+    background-color: #DB0F35;
+    padding: 15px;
+    margin-top: 100px;
+    border-radius: 5px;
+
+
+}
+
+.contenedor-dentro-caja{
+
+    padding: 10px;
+
+}
+
+
+
+.columns {
+
+ columns: 2;
+
+}
+    
+.texto-alineado {
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+
+.separacion {
+
+    height: auto;
+    padding: auto;
+}
+
+.contenedor-imagenes {
+
+    columns: 3;
+    padding: 20px;
+
+
+}
+
+.caja-roja {
+
+    background-color: #DB0F35;
+    border-radius: 5px;
+    padding-bottom: 15px;
+
+}
+
+.caja-menu {
+    width: auto;
+    height: auto;
+    background-color: #FFF2EB;
+    margin-bottom: 0px;
+    
+}
+
+
+.contenedor-grilla {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px;
+    padding: 100px;
+
+
+}
+
+.caja-comida {
+
+    width: auto;
+    height: auto;
+    background-color:white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.contenedor-texto {
+
+    padding: 100px;
+
+}
+
+.button{
+
+    border-radius: 5px;
+    background-color: red;
+    border: 10px;
+    padding: 10px;
+    
+}
+
+.button:hover{
+
+    background-color: #e12043;
+
+}
+
+
+.div-boton-reserva {
+
+    margin-bottom: 50px;
+
+
+}
+
+.contenedor-texto-reserva {
+
+    text-align: center;
+    padding: 50px;
+
+}
+
+.contenedor-de-contenedores {
+
+    margin: 150px;
+
+}
+
+.contenedor-absoluto { 
+
+    min-height: 100vh;
+    display:  grid;
+    grid-template-rows: auto 1fr auto; ;
+
+}
+
+.caja-contenedora {
+
+    margin: 200px 50px 200px;
+    padding: 100px;
+
+}
+
+.contenedor-absoluto-menu{
+    padding: 100px;
+    border-bottom: 100px solid #FFF2EB;
+
+}
+
+.caja-index-h1{
+    text-align: center;
+    background-color: #DB0F35;
+    margin: 100px 320px;
+    border-radius: 10px;
+
+}
+
+.contenedor-acerca-de {
+
+    background-color: #FFF2EB;
+    display: flex;
+    padding-left: 300px;
+    padding-right: 100px;
+
+}
+
+.contenedor-acerca-de-texto {
+
+    text-align: center;
+    margin-top: 100px;
+    font-size: large;
+    margin-bottom: 100px;
+    width: 500px;
+
+}
+
+.contenedor-acerca-de-img {
+
+    margin: auto;
+    border-radius: 5px;
+
+}
+
+.caja-horarios {
+
+    margin-bottom: 90px;
+
+}
+
+
+.contenedor-absoluto-horario {
+    text-decoration: none;
+    background-color: #FFF2EB;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+
+}
+
+.color-horario {
+
+    font-size: x-large;
+    text-align: center;
+    padding: 80px;
+    background-color: #FFF2EB;
+
+}
+
+.h2-horario {
+
+    height: 40px;
+
+}
+
+.caja-menu-texto {
+
+    padding-top: 120px;
+
+
+
+}
+
