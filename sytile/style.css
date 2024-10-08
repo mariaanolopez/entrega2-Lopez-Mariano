@@ -21,6 +21,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 .lista-sin-puntos {
@@ -60,7 +61,23 @@ a {
     box-sizing: border-box;
     background-color: #DB0F35;
     justify-content: space-around;
+    border-bottom: solid 1px #000000;
+    align-items: center;
     
+}
+
+.box-footer {
+
+    display: flex;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #DB0F35;
+    justify-content: space-around;
+    border-top: solid 1px #000000;
+    align-items: center;
+
 }
 
 .div-section1 {
@@ -69,6 +86,7 @@ a {
     display: flex;
     margin: 0px 200px 30px 200px;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px;
 
 }
 
@@ -96,7 +114,7 @@ a {
     flex-direction: row-reverse;
     margin: 0px 200px 0px 200px;
     border-radius: 10px;
-    
+    box-shadow: 5px 5px 15px;
     
 
 }
@@ -157,6 +175,7 @@ a {
     padding: 100px 0px 100px 0px;
     margin: 40px 200px 100px 200px;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px;
 
 }
 
@@ -168,7 +187,7 @@ a {
     border-radius: 5px;
     padding-bottom: 15px;
     margin: 100px 100px 10px 100px;
-
+    box-shadow: 5px 5px 10px;
 
 }
 
@@ -178,6 +197,8 @@ a {
     background-color: #FFF2EB;
     margin: 100px;
     border-top: 50px solid #FFF2EB;
+    box-shadow: 5px 5px 15px;
+    border-radius: 5px;
     
 }
 
@@ -274,7 +295,7 @@ a {
     margin: 100px 200px 100px 200px;
     background-color: #FFF2EB;
     border-radius: 5px;
-
+    box-shadow: 5px 5px 15px;
 
 }
 
@@ -352,7 +373,8 @@ a {
     text-align: center;
     background-color: #DB0F35;
     margin: 100px 320px;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
 
 }
 
