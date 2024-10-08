@@ -67,7 +67,7 @@ a {
 
     background-color: #FFF2EB;
     display: flex;
-    margin: 100px;
+    margin: 0px 200px 30px 200px;
     border-radius: 10px;
 
 }
@@ -94,7 +94,7 @@ a {
     background-color: #FFF2EB;
     display: flex;
     flex-direction: row-reverse;
-    margin: 100px;
+    margin: 0px 200px 0px 200px;
     border-radius: 10px;
     
     
@@ -155,7 +155,7 @@ a {
     column-gap: 10px;
     row-gap: 20px;
     padding: 100px 0px 100px 0px;
-    margin: 0px 100px 100px 100px;
+    margin: 40px 200px 100px 200px;
     border-radius: 10px;
 
 }
