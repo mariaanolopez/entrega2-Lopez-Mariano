@@ -360,41 +360,47 @@ a {
 
     background-color: #FFF2EB;
     display: flex;
-    padding-left: 300px;
-    padding-right: 100px;
+    justify-content: space-around;
+    padding:  100px 250px 100px 250px;
 
 }
 
 .contenedor-acerca-de-texto {
 
+    background-color: white;
     text-align: center;
-    margin-top: 100px;
-    font-size: large;
-    margin-bottom: 100px;
-    width: 500px;
+    padding: 100px;
+    margin:  00px 100px 00px 100px;
+    border-radius: 10px;
+    
 
 }
 
+
 .contenedor-acerca-de-img {
 
-    margin: auto;
+    padding-top: 25px;
     border-radius: 5px;
 
 }
 
 .caja-horarios {
-
-    margin-bottom: 90px;
-
+    background-color: #ffffff;
+    margin: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
 }
 
 
 .contenedor-absoluto-horario {
     text-decoration: none;
     background-color: #FFF2EB;
-    display: flex;
-    justify-content: space-around;
-    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+
+
 
 }
 
@@ -402,8 +408,9 @@ a {
 
     font-size: x-large;
     text-align: center;
-    padding: 80px;
+    padding-top: 100px;
     background-color: #FFF2EB;
+
 
 }
 
