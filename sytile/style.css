@@ -269,6 +269,22 @@ a {
 
 }
 
+.caja-reservacion {
+
+    margin: 100px 200px 100px 200px;
+    background-color: #FFF2EB;
+    border-radius: 5px;
+
+
+}
+
+.caja-comida-reservacion {
+
+    border-radius: 10px;
+ 
+
+}
+
 .button{
 
     border-radius: 5px;
@@ -281,6 +297,20 @@ a {
 .button:hover{
 
     background-color: #e12043;
+
+}
+
+.contenedor-reserva {
+
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px;
+    margin: 0px 100px 50px 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 5px;
+
 
 }
 
@@ -299,11 +329,6 @@ a {
 
 }
 
-.contenedor-de-contenedores {
-
-    margin: 150px;
-
-}
 
 .contenedor-absoluto { 
 
@@ -313,12 +338,7 @@ a {
 
 }
 
-.caja-contenedora {
 
-    margin: 200px 50px 200px;
-    padding: 100px;
-
-}
 
 .contenedor-absoluto-menu{
     padding-left: 100px;
