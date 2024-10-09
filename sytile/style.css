@@ -60,7 +60,7 @@ a {
     padding: 10px;
     box-sizing: border-box;
     background-color: #DB0F35;
-    justify-content: space-around;
+    justify-content: center;
     border-bottom: solid 1px #000000;
     align-items: center;
     
@@ -84,7 +84,7 @@ a {
 
     background-color: #FFF2EB;
     display: flex;
-    margin: 0px 200px 30px 200px;
+    margin: 0px 100px 30px 100px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px;
 
@@ -112,7 +112,7 @@ a {
     background-color: #FFF2EB;
     display: flex;
     flex-direction: row-reverse;
-    margin: 0px 200px 0px 200px;
+    margin: 0px 100px 0px 100px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px;
     
@@ -286,7 +286,22 @@ a {
 
 .contenedor-texto {
 
-    padding: 100px;
+    text-align: center;
+    padding: 100px 50px 0px 50px;
+
+}
+
+.contenedor-texto2{
+
+
+    padding: 1rem;
+
+}
+
+.contenedor-texto3{
+
+
+    padding: 2rem;
 
 }
 
@@ -326,7 +341,7 @@ a {
     background-color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 100px;
+    padding: 50px;
     margin: 0px 100px 50px 150px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -395,8 +410,8 @@ a {
 
     background-color: white;
     text-align: center;
-    padding: 100px;
-    margin:  00px 100px 00px 100px;
+    padding: 20px;
+    margin:  00px 10px 00px 0px;
     border-radius: 10px;
     
 
